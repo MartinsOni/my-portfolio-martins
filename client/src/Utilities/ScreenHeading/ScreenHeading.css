@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 0 50px 0;
+    margin: 0px 0 50px 0;
     text-align: center;
     z-index: -100;
 }
@@ -11,7 +11,7 @@
     font-size: 32px;
     content: #1f2235;
     font-family: "Poppins Bold";
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .screen_sub_heading {

@@ -17,5 +17,6 @@
 
 .footer_parent img {
     max-width: 100%;
-    height: 130px;
+    height: 230px;
+    border-top: 5px solid white;
 }
