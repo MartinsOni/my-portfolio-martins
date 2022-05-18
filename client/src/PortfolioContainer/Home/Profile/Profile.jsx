@@ -15,13 +15,13 @@ const Profile = () => {
 
                         <div className="profile_icon">
                             <div className="profileIcons">
-                                <a href="">
-                                    <i className="fa fa-facebook-square"></i>
+                                <a href="https://github.com/MartinsOni">
+                                    <i className="fa fa-github-square"></i>
                                 </a>
                                 <a href="">
                                     <i className="fa fa-instagram"></i>
                                 </a>
-                                <a href="">
+                                <a href="https://twitter.com/Martinsdeji1">
                                     <i className="fa fa-twitter-square"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/martins-o-67992734/">
