@@ -1,0 +1,157 @@
+.container1{
+    border: 25px solid rgb(237, 98, 51);
+}
+
+.profile_container{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(17, 16, 54) 0%, rgba(9,120,121,1) 45%, rgba(0,212,255,1) 100%);
+    margin-top: 120px;
+    border: 25px solid white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   */
+    box-shadow: inset 0.3em 0.3em 0.9em black;
+    border-radius: 29px;
+}
+
+.profile_parent {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profileIcons a {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.name {
+    font-family: "Poppins ExtraBold";
+    font-size: 35px;
+    color: rgb(255, 79, 79);
+}
+
+.profile_detail_name {
+    font-size: 20px;
+    width: 60vw;
+}
+
+.info {
+   font-family: cursive; 
+}
+
+.profile_picture {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 20%;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+}
+
+.profile_picture_background {  
+    align-self: center;
+    width: 95%;
+    height: 95%;
+    background-image: url("../../../assets/Home/portrait.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile_picture_background:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 1px 0px 2px 3px rgb(238, 42, 16);
+}
+
+.profile_option button{
+    margin: 20px;
+}
+
+@media screen and (max-width: 1300px){
+
+   .profile_detail_name {
+       font-size: 20px;
+       font-size: medium;  
+   } 
+
+   .profile_option button {
+        width: 100px;
+        padding: 11px;
+   }
+
+    .profile_picture {
+        margin: 0 0 0 80px;
+        height: 250px;
+        width: 22%;
+    }
+    
+    .profile_picture_background {
+        width: 100%;   
+    }
+
+    .profile_picture_background:hover{
+        transform: scale(1.1);
+        transition: 1s;
+        box-shadow: 2px 5px 0 1px rgb(238, 42, 16);
+    
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .profile_parent {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .profile_detail_name{
+        align-content: center;
+    }
+
+    .profile_picture {
+        width: 30%;
+        height: 250px;
+        align-self: center;
+        margin: 0 0 15px 0;
+    }
+
+    .profile_container {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 710px) {
+    .profile_picture {
+        width: 40%;
+        height: 330px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .profile_picture {
+        width: 60%;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .profile_picture {
+        width: 80%;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .profile_picture {
+        width: 100%;
+        height: 200px;
+    }
+
+}
