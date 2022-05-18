@@ -24,7 +24,7 @@ const Profile = () => {
                                 <a href="">
                                     <i className="fa fa-twitter-square"></i>
                                 </a>
-                                <a href="">
+                                <a href="https://www.linkedin.com/in/martins-o-67992734/">
                                     <i className="fa fa-linkedin"></i>
                                 </a>
                             </div>
