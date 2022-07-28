@@ -1,7 +1,7 @@
 .main {
   position: fixed;
   top: 0;
-  background-color: #1f2235;
+  /* background-color: #1f2235; */
   width: 100vw;
   z-index: 10;
   background-color: rgb(11, 9, 51);

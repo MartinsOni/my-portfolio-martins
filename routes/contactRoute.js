@@ -1,11 +1,11 @@
-import express from "express"
-import nodemailer from "nodemailer"
+import express from "express";
+import nodemailer from "nodemailer";
 
-const router = express.Router()
+const router = express.Router();
 
-router.get ("/version", (req, res) => {
-  return res.status(200).json({version:"1.0.1"})
-})
+router.get("/version", (req, res) => {
+  return res.status(200).json({ version: "1.0.1" });
+});
 
 router.post("/contact", (req, res) => {
   let data = req.body;
@@ -41,7 +41,12 @@ router.post("/contact", (req, res) => {
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {
       if (error)
-        return res.status(400).json({ msg: "Please Fill All The Fields!", error:error.toString() });
+        return res
+          .status(400)
+          .json({
+            msg: "Please Fill All The Fields!",
+            error: error.toString(),
+          });
       res.status(200).json({ msg: "Thank You For Contacting Martins." });
     } catch (error) {
       if (error) return res.status(500).json({ msg: "There is server error" });
@@ -49,4 +54,4 @@ router.post("/contact", (req, res) => {
   });
 });
 
-export default router
+export default router;
